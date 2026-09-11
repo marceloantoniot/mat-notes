@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mat-notes",
+  "name": "Mat Notes",
+  "version": "1.0.0",
+  "author": "mat",
+  "license": "MIT",
+  "description": "A modal Markdown note editor: one file, autosaved, reopened by shortcut or menu.",
+  "kinds": ["overlay"],
+  "keepLoaded": true,
+  "entryPoints": { "overlay": "Overlay.qml" },
+  "overlay": {
+    "defaults": { "path": "" },
+    "schema": [
+      { "key": "path", "type": "string", "label": "Note file" }
+    ]
+  }
+}
