@@ -136,7 +136,7 @@ precisa reiniciar). `~` e `$HOME` são expandidos; caminhos relativos ficam sob
 - Mudanças no código do plugin exigem `omarchy restart shell` para recarregar
   (primeira instalação só precisa do `enable`).
 
-## Desinstalação
+## Desinstalação:
 
 ```sh
 omarchy plugin remove mat-notes
